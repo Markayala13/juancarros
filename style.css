@@ -6,6 +6,11 @@ header {
     padding: 10px ;
 }
 
+header a{
+    text-decoration: none;
+    color: #f1faee;;
+}
+
 
 
 * {
@@ -29,18 +34,20 @@ body {
 }
 
 .wow a {
-    padding: 40px;
+    padding: 90px;
     position: relative;
     display: inline-block;
-padding: 25px 180px;
-    margin: 40px;
+padding: 26px;
+    
     color:  #f1faee;
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
     letter-spacing: 4px;
     overflow: hidden;
-    margin-right: 50px;
+    margin-right: 290px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 .wow a:hover{
