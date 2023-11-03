@@ -12,15 +12,27 @@ body {
     
 }
 
-
-
 .header {
-  background-color: #e63946;
+  background-color:  #e63946;
   color: #f1faee;
   text-align: center;
-
-
+  padding: 10px ;
 }
+
+header a{
+  text-decoration: none;
+  color: #f1faee;
+}
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
 
 
 .header a h1 {
@@ -129,7 +141,7 @@ th {
   padding: 1%;
   border-radius: 50%;
   float: right;
-  margin: 1% transition: ease 0.6s;
+  margin: 1% transition:ease 0.6s;
 
 }
 
@@ -149,7 +161,7 @@ footer {
   background-color: #e63946;
   color: #f1faee;
   text-align: center;
-  padding: 1px;
+  padding: 30px;
 }
 
 .inicio a {
