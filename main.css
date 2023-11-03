@@ -1,9 +1,15 @@
 body {
-  background-image: url(pics/black-1072366_1920.jpg);
+  
+  background-image: url(llantas.jpg);
   font-family: sans-serif;
   font-size: 14px;
   justify-content: center;
   align-items: center;
+  background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
 
 
@@ -135,8 +141,8 @@ th {
 .boton {
   width: 90px;
   transition: ease 1s;
-  background-color: #fff;
-  border-radius: 50%;
+  
+  
 }
 
 footer {
@@ -269,4 +275,29 @@ footer {
   100% {
     bottom: 100%;
   }
+}
+
+
+.social-icon {
+  padding: 70px;
+  margin-left: 410px;
+  font-size: 70px;
+  
+}
+
+.social-icon a{
+ 
+  color: aqua;
+  transition: color 0.2s;
+  
+  margin: 20px;
+  text-decoration: none;
+  
+}
+
+.social-icon a:hover {
+  color: #e63946;
+  
+  
+
 }
