@@ -1,28 +1,15 @@
-body {
-  
-  background-image: url(llantas.jpg);
-  font-family: sans-serif;
-  font-size: 14px;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-    background-position:center ;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-}
-
 .header {
-  background-color:  #e63946;
+  background-color: #e63946;
   color: #f1faee;
   text-align: center;
-  padding: 10px ;
+  padding: 10px;
 }
 
-header a{
+.header a {
   text-decoration: none;
   color: #f1faee;
 }
+
 
 
 
@@ -32,23 +19,28 @@ header a{
   box-sizing: border-box;
 }
 
+body {
 
-
-
-.header a h1 {
-  text-decoration: none;
-  color: #f1faee;
-  margin-top: 20px;
-  padding-top: 20px;
-  padding-bottom: 5px;
-  text-decoration: underline;
+  background-image: url(llantas.jpg);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
 }
 
-header a:hover {
-  text-decoration: underline;
-}
 
+
+
+ .inv{
+  color: #e63946;
+  text-align: center;
+  padding-top: 60px;
+}
 
 
 
@@ -74,7 +66,7 @@ header a:hover {
 }
 
 
-h1,
+
 h2 {
   padding-top: 5%;
   text-align: center;
@@ -153,8 +145,8 @@ th {
 .boton {
   width: 90px;
   transition: ease 1s;
-  
-  
+
+
 }
 
 footer {
@@ -294,22 +286,22 @@ footer {
   padding: 70px;
   margin-left: 410px;
   font-size: 70px;
-  
+
 }
 
-.social-icon a{
- 
+.social-icon a {
+
   color: aqua;
   transition: color 0.2s;
-  
+
   margin: 20px;
   text-decoration: none;
-  
+
 }
 
 .social-icon a:hover {
   color: #e63946;
-  
-  
+
+
 
 }
